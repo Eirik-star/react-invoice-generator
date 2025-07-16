@@ -11,7 +11,7 @@ class EditableField extends React.Component {
           this.props.cellData.leading != null &&
           <InputGroup.Text
             className="bg-light fw-bold border-0 text-secondary px-2">
-            <span className="border border-2 border-secondary rounded-circle d-flex align-items-center justify-content-center small" style={{width: '20px', height: '20px'}}>
+            <span className="border border-2 border-secondary rounded-circle d-flex align-items-center justify-content-center small" style={{width: '30px', height: '30px'}}>
               {this.props.cellData.leading}
             </span>
           </InputGroup.Text>
