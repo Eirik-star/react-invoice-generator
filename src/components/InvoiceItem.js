@@ -91,8 +91,8 @@ class ItemRow extends React.Component {
             id: this.props.item.id,
           }}/>
         </td>
-        <td className="text-center" style={{minWidth: '50px'}}>
-          <BiTrash onClick={this.onDelEvent.bind(this)} style={{height: '33px', width: '33px', padding: '7.5px'}} className="text-white mt-1 btn btn-danger"/>
+        <td className="text-center" style={{minWidth: '200px'}}>
+          <BiTrash onClick={this.onDelEvent.bind(this)} style={{height: '133px', width: '133px', padding: '7.5px'}} className="text-white mt-1 btn btn-danger"/>
         </td>
       </tr>
     );
