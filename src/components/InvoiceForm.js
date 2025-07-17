@@ -137,14 +137,14 @@ class InvoiceForm extends React.Component {
                 <div className="d-flex flex-row align-items-center">
                   <span className="fw-bold d-block me-2">Due&nbsp;Date:</span>
                   <Form.Control type="date" value={this.state.dateOfIssue} name={"dateOfIssue"} onChange={(event) => this.editField(event)} style={{
-                      maxWidth: '150px'
+                      maxWidth: '250px'
                     }} required="required"/>
                 </div>
               </div>
               <div className="d-flex flex-row align-items-center">
                 <span className="fw-bold me-2">Invoice&nbsp;Number:&nbsp;</span>
                 <Form.Control type="number" value={this.state.invoiceNumber} name={"invoiceNumber"} onChange={(event) => this.editField(event)} min="1" style={{
-                    maxWidth: '70px'
+                    maxWidth: '100px'
                   }} required="required"/>
               </div>
             </div>
