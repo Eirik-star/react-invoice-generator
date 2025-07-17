@@ -64,7 +64,7 @@ class ItemRow extends React.Component {
             id: this.props.item.id
           }}/>
         </td>
-        <td style={{minWidth: '70px'}}>
+        <td style={{minWidth: '80px'}}>
           <EditableField
           onItemizedItemEdit={this.props.onItemizedItemEdit}
           cellData={{
@@ -76,14 +76,14 @@ class ItemRow extends React.Component {
             id: this.props.item.id,
           }}/>
         </td>
-        <td style={{minWidth: '130px'}}>
+        <td style={{minWidth: '120px'}}>
           <EditableField
             onItemizedItemEdit={this.props.onItemizedItemEdit}
             cellData={{
             leading: this.props.currency,
             type: "number",
             name: "price",
-            min: 1,
+            min: 2,
             step: "0.01",
             presicion: 2,
             textAlign: "text-end",
